@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+* {
+    font-family: Avenir;
+    color: #333;
+}
+
+.bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('https://goo.gl/1xNRAd') no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1, h2, h4 {
+    color: white;
+}
+
+.jumbotron h1 {
+    width: 45%;
+    margin: 0px auto 20px;
+    background-color: #162a2a;
+    padding: 30px;
+    border-radius: 35px;
+    border: 2px solid white;
+}
+
+.form-control {
+    height: 75px;
+    padding: 5px 60px;
+    font-size: 20px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border: 3px solid white;
+    background-color: #152929;
+    color: white;
+}
+
+input:focus {
+    border: none;
+    color: white;
+    background-color: #152929;
+    font-family: Avenir;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+#search {
+    font-size: 30px;
+    height: 75px;
+    padding: 0px 50px 0px 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: #152929;
+    border: 2px solid white;
+}
+
+#randomBtn {
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 50px;
+    border-radius: 15px;
+    background-color: #152929;
+    border: 2px solid white;
+    margin-bottom: 80px;
+}
+
+#home {
+    font-size: 20px;
+    height: 45px;
+    display: none;
+    padding: 8px 50px;
+    border-radius: 15px;
+    background-color: #152929;
+    border: 2px solid white;
+    margin-bottom: 40px;
+}
+
+i {
+    color: white;
+    margin-right: 5px;
+}
+
+#result {
+    border: 2px solid white;
+    width: 100%;
+    display: none;
+    padding: 110px;
+    background-color: #152929;
+    color: white;
+    margin-top: -50px;
+    overflow-x: hidden;
+}
+
+.results {
+    margin-left: 200%;
+    margin-bottom: 60px;
+}
+
+.results p {
+    color: white
+}
+
+#result a:hover {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.searchmatch {
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+@media (max-width: 480px) {
+    /* For mobile phones: */
+    .jumbotron h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #randomBtn {
+        font-size: 15px;
+        padding: 10px 35px;
+    }
+
+    #input {
+        height: 50px;
+        display: block;
+    }
+
+    #search {
+        height: 50px;
+        padding: 0px 40px 0px 25px;
+        font-size: 15px;
+    }
+
+    #result {
+        padding: 10px
+    }
+}
